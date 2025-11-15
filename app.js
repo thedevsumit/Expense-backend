@@ -16,7 +16,7 @@ const port = process.env.PORT;
 connectDB();
 
 const allowedOrigins = [
-  "http://localhost:3000",
+  "https://expense-tracker-oops.vercel.app/",
 ];
 
 app.use(
